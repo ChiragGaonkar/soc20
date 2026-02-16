@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Employees]
+(
+[Id] [int] NOT NULL,
+[Name] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Employees] ADD CONSTRAINT [PK__Employee__3214EC0737BD13F2] PRIMARY KEY CLUSTERED ([Id]) ON [PRIMARY]
+GO
